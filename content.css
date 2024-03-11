@@ -29,3 +29,53 @@ body{
 h2 {
     color: red;
 }
+
+.new-watches-title{
+    background-color: #65bddd;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 2% 25% 2% 25%;
+}
+
+.new-watches{
+    background-color: rgb(162, 184, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    margin: 0% 5% 0% 5%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.new-watch a img{
+    width: 200px;
+    height: auto;
+    image: 200px 200px;
+    border-radius: 10px;
+}
+
+.new-watch{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.new-watch:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.new-watch-name{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.new-watch a{
+    color: black;
+    text-decoration: none;
+}
